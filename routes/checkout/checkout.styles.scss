@@ -1,0 +1,27 @@
+.container {
+  margin-top: 100px;
+  h5 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .cart {
+    display: flex;
+    gap: 160px;
+    align-items: center;
+    img{
+       width: 281px;
+       height: 400px; 
+    }
+    p {
+        margin-right: 68px;
+        font-size: 1.25rem;
+        user-select: none;
+        span {
+          font-weight: bold;
+          margin:0 5px 0 5px; 
+          font-size: 1.25rem;
+          cursor: pointer;
+        }
+    }
+  }
+}
